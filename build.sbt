@@ -4,7 +4,7 @@ version := ".1"
 
 scalaVersion := "2.11.1"
 
-resolvers ++= Seq("Sonatype Nexus releases" at "o",
+resolvers ++= Seq("Sonatype Nexus releases" at "https://oss.sonatype.org/content/repositories/releases",
                   "Sonatype Nexus snapshots" at "https://oss.sonatype.org/content/repositories/snapshots",
                   "Typesafe Repository" at "http://repo.typesafe.com/typesafe/releases/")
 
